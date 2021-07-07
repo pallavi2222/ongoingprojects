@@ -23,8 +23,8 @@ margin-left: 40px;
     margin-right:10px;
  margin-left: 10px;
  margin-top:60px;
- width:325;
- height:550;
+ width:375;
+ height:730;
     
     }
 width:300px;
