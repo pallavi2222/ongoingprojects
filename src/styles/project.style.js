@@ -4,14 +4,29 @@ margin-top:10px;
 height:426px;
 width: 100%;
 display: flex;
+@media only screen and (max-width: 500px) {
+    height:1700px ;
+     width:384.5px;
+     display:inherit;
+    
+    }
 `;
 export const Column = styled.div`
 width: 384.5px;
 height: 426px;
+
 `;
 export const Box = styled.div`
 margin-right:50px;
 margin-left: 40px;
+@media only screen and (max-width: 500px) {
+    margin-right:10px;
+ margin-left: 10px;
+ margin-top:60px;
+ width:325;
+ height:550;
+    
+    }
 width:300px;
 height:426px;
 background-color: rgb(10, 19, 60);
@@ -51,3 +66,4 @@ export const Arrow = styled.div`
 flex:50%;
 color:white;
 `;
+
