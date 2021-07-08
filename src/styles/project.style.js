@@ -8,6 +8,7 @@ display: flex;
     height:2000px;
      width:350px;
      display:inherit;
+     display:center;
      
     
     }
