@@ -6,7 +6,7 @@ width: 100%;
 display: flex;
 @media only screen and (max-width: 500px) {
     height:2000px;
-     width:400px;
+     width:330px;
      display:inherit;
     
     }
@@ -24,7 +24,7 @@ margin-left: 40px;
     margin-right:10px;
  margin-left: 10px;
  margin-top:153px;
- width:400px;
+ width:330px;
   height:524px ;
     }
 width:300px;
@@ -38,8 +38,8 @@ width:300px;
 height:175px;
 border-radius:7px;
 @media only screen and (max-width: 500px) {
- width:400px;
-  height:210px ;
+ width:330px;
+  height:230px ;
     }
 `;
 export const Contents = styled.p`
@@ -51,9 +51,10 @@ line-height:20px;
 padding:0px 13px;
 text-align: left;
 @media only screen and (max-width: 500px) {
-    width:310px;
+    width:309px;
     font-size: 14px;
     line-height:21px;
+    
     }
 `;
 export const Totalheadine = styled.div`
