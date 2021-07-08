@@ -8,7 +8,9 @@ display: flex;
     height:2000px;
      width:350px;
      display:inherit;
-     
+     justify-content:center;
+     justify-items: center;
+     align-items: center;
     
     }
 `;
