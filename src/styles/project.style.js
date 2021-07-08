@@ -28,7 +28,7 @@ margin-left: 40px;
  margin-top:200px;
  width:353px;
   height:563.5px ;
-  margin-right:10px;
+  
     }
 width:300px;
 height:426px;
