@@ -6,7 +6,7 @@ width: 100%;
 display: flex;
 @media only screen and (max-width: 600px) {
     height:2000px;
-     width:350px;
+     width:100%;
      display: inherit;
      justify-content:center;
      justify-items: center;
