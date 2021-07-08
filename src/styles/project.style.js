@@ -9,7 +9,7 @@ display: flex;
      width:350px;
      display:inherit;
      display:center;
-     
+     align-items:center;
     
     }
 `;
@@ -17,6 +17,10 @@ export const Column = styled.div`
 width: 384.5px;
 height: 426px;
 
+@media only screen and (max-width: 500px) {
+    width:373px;
+
+       }
 
 `;
 export const Box = styled.div`
