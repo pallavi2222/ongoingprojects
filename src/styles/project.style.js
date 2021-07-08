@@ -6,7 +6,7 @@ width: 100%;
 display: flex;
 @media only screen and (max-width: 500px) {
     height:2000px;
-     width:330px;
+     width:340px;
      display:inherit;
     
     }
@@ -23,9 +23,9 @@ margin-left: 40px;
 @media only screen and (max-width: 500px) {
     margin-right:10px;
  margin-left: 10px;
- margin-top:153px;
- width:330px;
-  height:524px ;
+ margin-top:180px;
+ width:340px;
+  height:540px ;
     }
 width:300px;
 height:426px;
@@ -38,8 +38,8 @@ width:300px;
 height:175px;
 border-radius:7px;
 @media only screen and (max-width: 500px) {
- width:330px;
-  height:230px ;
+ width:340px;
+  height:250px ;
     }
 `;
 export const Contents = styled.p`
@@ -48,12 +48,13 @@ font-size: 13.5px;
 width:276px;
 font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 line-height:20px;
-padding:0px 13px;
+padding:0px 15px;
 text-align: left;
 @media only screen and (max-width: 500px) {
     width:309px;
     font-size: 14px;
     line-height:21px;
+    margin-top:5px;
     
     }
 `;
@@ -78,7 +79,7 @@ text-align: left;
 @media only screen and (max-width: 500px) {
    font-weight: 18px;
    margin-top:25px;
-   margin-bottom: 30px;
+   
     }
 `;
 export const Arrow = styled.div`
