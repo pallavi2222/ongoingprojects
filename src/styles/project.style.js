@@ -7,10 +7,11 @@ display: flex;
 @media only screen and (max-width: 600px) {
     height:2000px;
      width:350px;
-     display:inherit;
+     display: inherit;
      justify-content:center;
      justify-items: center;
      align-items: center;
+
     
     }
 `;
@@ -33,7 +34,6 @@ margin-left: 40px;
  margin-top:200px;
  width:348px;
   height:563.5px ;
-  margin-left:14.5px;
   
     }
 width:300px;
