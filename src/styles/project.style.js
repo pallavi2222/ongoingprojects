@@ -1,11 +1,4 @@
 import styled from 'styled-components'
-export const Total = styled.body`
-justify-content:center;
-     justify-items: center;
-     align-items: center;
-     
-
-`;
 export const Row = styled.div`
 margin-top:10px;
 height:426px;
