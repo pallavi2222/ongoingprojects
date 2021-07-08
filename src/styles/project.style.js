@@ -18,9 +18,9 @@ display: flex;
 export const Column = styled.div`
 width: 384.5px;
 height: 426px;
-
 @media only screen and (max-width: 600px) {
-    width:348px;
+    width:100%;
+
 
        }
 
@@ -29,11 +29,11 @@ export const Box = styled.div`
 margin-right:50px;
 margin-left: 40px;
 @media only screen and (max-width: 600px) {
-    
- 
+
  margin-top:200px;
  width:348px;
   height:563.5px ;
+  
   
     }
 width:300px;
