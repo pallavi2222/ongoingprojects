@@ -103,7 +103,7 @@ font-size:80px;
 margin-top:-33px;
 @media only screen and (max-width: 600px) {
    
-    margin-top:-20px;
+    margin-top:-30px;
     }
 
 `;
