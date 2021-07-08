@@ -14,8 +14,10 @@ function Project() {
                 <Totalheadine>
                 <Headline>Digital Literacy & Cyber 
                     Security</Headline>
+        
                     <Arrow>
-                        <ArrowRightAltIcon style={{color:"#d55342",fontSize:"60"}}></ArrowRightAltIcon>
+                    &#8594;
+                    
                     </Arrow>
                     </Totalheadine>
                 <Contents>DLCS will bring awareness in the society to use digital technology efficiently and help them reduce their functional disability using it to their comfort. We also teach them the threat and health of Internet. How to be safe on them and the behaviour using it.</Contents>

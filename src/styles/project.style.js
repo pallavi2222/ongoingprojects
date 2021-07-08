@@ -1,18 +1,18 @@
 import styled from 'styled-components'
 export const Row = styled.div`
-margin-top:10px;
+margin-top:50px;
 height:426px;
 width: 100%;
 display: flex;
 @media only screen and (max-width: 600px) {
-    height:2000px;
+
      width:100%;
      display:i;
      display: inherit;
      justify-content:center;
      justify-items: center;
      align-items: center;
-
+    margin-top :-130px ;
     
     }
 `;
@@ -30,8 +30,7 @@ export const Box = styled.div`
 margin-right:50px;
 margin-left: 40px;
 @media only screen and (max-width: 600px) {
-
- margin-top:200px;
+margin-top:200px;
  width:348px;
   height:563.5px ;
   margin-left: auto;
@@ -98,6 +97,13 @@ text-align: left;
 `;
 export const Arrow = styled.div`
 flex:50%;
-color:white;
+color:#d55342;
+font-size:80px;
+margin-top:-33px;
+@media only screen and (max-width: 600px) {
+   
+    margin-top:-20px;
+    }
+
 `;
 
