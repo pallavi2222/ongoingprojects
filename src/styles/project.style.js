@@ -21,16 +21,16 @@ export const Box = styled.div`
 margin-right:50px;
 margin-left: 40px;
 @media only screen and (max-width: 500px) {
-    margin-right:10px;
- margin-left: 10px;
+    
+ margin-left: 15px;
  margin-top:200px;
  width:350px;
-  height:560px ;
+  height:563.5px ;
     }
 width:300px;
 height:426px;
 background-color: rgb(10, 19, 60);
-border-radius:7px;
+border-radius:10px;
 
 `;
 export const Images = styled.img`
@@ -52,9 +52,9 @@ padding:0px 15px;
 text-align: left;
 @media only screen and (max-width: 500px) {
     width:309px;
-    font-size: 14.5px;
-    line-height:21px;
-    margin-top:5px;
+    font-size: 14.6px;
+    line-height:23px;
+    margin-top:0px;
     
     
     }
