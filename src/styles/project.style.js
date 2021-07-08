@@ -27,8 +27,9 @@ height: 426px;
 
 `;
 export const Box = styled.div`
-margin-right:50px;
-margin-left: 40px;
+
+margin-left:auto;
+margin-right: auto;
 @media only screen and (max-width: 600px) {
 margin-top:200px;
  width:348px;
