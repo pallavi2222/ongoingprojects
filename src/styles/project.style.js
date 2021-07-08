@@ -8,8 +8,7 @@ display: flex;
     height:2000px;
      width:350px;
      display:inherit;
-     display:center;
-     align-items:center;
+     
     
     }
 `;
@@ -30,8 +29,9 @@ margin-left: 40px;
     
  
  margin-top:200px;
- width:353px;
+ width:350px;
   height:563.5px ;
+  margin-left:15px;
   
     }
 width:300px;
@@ -45,7 +45,7 @@ width:300px;
 height:175px;
 border-radius:10px;
 @media only screen and (max-width: 500px) {
- width:353px;
+ width:350px;
   height:270px ;
     }
 `;
