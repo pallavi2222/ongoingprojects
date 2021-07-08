@@ -1,4 +1,11 @@
 import styled from 'styled-components'
+export const Total = styled.body`
+justify-content:center;
+     justify-items: center;
+     align-items: center;
+     
+
+`;
 export const Row = styled.div`
 margin-top:10px;
 height:426px;
@@ -7,6 +14,7 @@ display: flex;
 @media only screen and (max-width: 600px) {
     height:2000px;
      width:100%;
+     display:i;
      display: inherit;
      justify-content:center;
      justify-items: center;
@@ -33,7 +41,8 @@ margin-left: 40px;
  margin-top:200px;
  width:348px;
   height:563.5px ;
-  
+  margin-left: auto;
+  margin-right:auto;
   
     }
 width:300px;

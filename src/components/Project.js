@@ -1,10 +1,11 @@
 import React from 'react'
 import Logo from '../images/google.jpg'
-import {Row,Column,Box,Images,Headline,Contents,Totalheadine,Arrow} from "../styles/project.style";
+import {Row,Column,Box,Images,Headline,Contents,Totalheadine,Arrow,Total} from "../styles/project.style";
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 function Project() {
     return (
         <div>
+            <Total>
             <Row>
                 <Column>
                 <Box >
@@ -28,6 +29,7 @@ function Project() {
                 <Box></Box>
                 </Column>
             </Row>
+            </Total>
         </div>
     )
 }
