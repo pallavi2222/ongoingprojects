@@ -1,38 +1,40 @@
 import styled from 'styled-components'
+
 export const Row = styled.div`
 margin-top:50px;
-height:426px;
 width: 100%;
 display: flex;
 @media only screen and (max-width: 600px) {
 
-     width:100%;
-     display:i;
+    width:100%;
+    height:100%;
      display: inherit;
      justify-content:center;
      justify-items: center;
      align-items: center;
-    margin-top :-130px ;
+     margin-top:-130px ;
+     margin-bottom:100px;
+     
     
     }
 `;
 export const Column = styled.div`
 width: 384.5px;
 height: 426px;
+margin-left:auto;
+margin-right:auto;
 @media only screen and (max-width: 600px) {
     width:100%;
-
-
-       }
-
+    
+  }
 `;
 export const Box = styled.div`
 
 margin-left:auto;
 margin-right: auto;
 @media only screen and (max-width: 600px) {
-margin-top:200px;
- width:348px;
+  margin-top:200px;
+  width:348px;
   height:563.5px ;
   margin-left: auto;
   margin-right:auto;
@@ -47,9 +49,10 @@ border-radius:10px;
 export const Images = styled.img`
 width:300px;
 height:175px;
-border-radius:10px;
+border-top-right-radius:10px;
+border-top-left-radius:10px ;
 @media only screen and (max-width: 600px) {
- width:348px;
+  width:348px;
   height:270px ;
     }
 `;
