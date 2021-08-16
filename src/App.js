@@ -1,12 +1,12 @@
 
 import './App.css';
 import React from "react";
-import './components/Project'
-import Communities from './components/Communities';
+import Project from './components/Project'
+import Communities from './components/Partners';
 function App() {
   return (
     <div className="App">
-    <Communities></Communities>
+    <Project></Project>
     </div>
   );
 }
