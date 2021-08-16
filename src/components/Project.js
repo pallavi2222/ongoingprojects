@@ -1,5 +1,5 @@
 import React from 'react'
-import {Row,Column,Box,Images,Headline,Contents,Totalheadine,Arrow} from "../styles/project.style";
+import {Row,Column,Box,Images,Headline,Contents,Totalheadine,Arrow} from "./project.style";
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 function Project() {
     return (
